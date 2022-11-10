@@ -13,8 +13,8 @@ backend "s3" {
     bucket     = "jeka664"
     region     = "ru-central1-a"
     key        = "terraform.tfstate"
-    access_key = "YCAJEKYJsQculyBYkKqOtA9Ut"
-    secret_key = "YCPSe4Az3Eewodgjw-cosxGrSQQZhScf4Ued3WbD"
+    access_key = "access_key"
+    secret_key = "secret_key"
 
     skip_region_validation      = true
     skip_credentials_validation = true
