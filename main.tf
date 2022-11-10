@@ -116,18 +116,22 @@ resource "yandex_lb_network_load_balancer" "nlb" {
 
 output "internal_ip_address_vm1" {
   value = module.createservers_1.internal_ip_address_vm
+  description = "Internal IP address vm1"
 }
 
 output "external_ip_address_vm1" {
   value = module.createservers_1.external_ip_address_vm
+  description = "External IP address vm1"
 }
 
 output "internal_ip_address_vm2" {
   value = module.createservers_2.internal_ip_address_vm
+  description = "Internal IP address vm2"
 }
 
 output "external_ip_address_vm2" {
   value = module.createservers_2.external_ip_address_vm
+  description = "Internal IP address vm2"
 }
 
 output "load_balancer_public_ip" {
